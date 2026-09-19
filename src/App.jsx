@@ -4,18 +4,19 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer'; 
 
 function App() {
   return (
-    <div className="bg-[#141414] min-h-screen text-white font-sans">
+    <div className="bg-[#141414] min-h-screen text-white">
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Projects />
-
-      <Footer />
+      <Contact />
+      <Footer /> 
     </div>
   );
 }

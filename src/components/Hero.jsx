@@ -33,33 +33,32 @@ const Hero = () => {
           </p>
 
           {/* Action Buttons */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
-            {/* زرار استعراض المشاريع */}
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mb-8 w-full">
             <a
               href="#projects"
-              className="bg-cyan-500 text-black px-7 py-3 rounded-full font-bold text-sm hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20"
+              className="bg-cyan-500 text-black px-7 py-3 rounded-full font-bold text-sm hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20 w-full sm:w-auto text-center"
             >
               View Projects
             </a>
 
-            {/* زرار معاينة السي في في تبويب جديد */}
-            <a
-              href="/Mostafa_Mohamed_CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-gray-700 text-gray-300 px-7 py-3 rounded-full font-bold text-sm hover:border-gray-500 hover:text-white transition"
-            >
-              View CV
-            </a>
+            <div className="flex items-center gap-3 w-full sm:w-auto justify-center">
+              <a
+                href="/Mostafa_Mohamed_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
+              >
+                View CV
+              </a>
 
-            {/* زرار تحميل السي في مباشرة */}
-            <a
-              href="/Mostafa_Mohamed_CV.pdf"
-              download="Mostafa_Mohamed_Mahmoud_CV.pdf"
-              className="border border-gray-700 text-gray-300 px-7 py-3 rounded-full font-bold text-sm hover:border-gray-500 hover:text-white transition"
-            >
-              Download CV
-            </a>
+              <a
+                href="/Mostafa_Mohamed_CV.pdf"
+                download="Mostafa_Mohamed_Mahmoud_CV.pdf"
+                className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
 
           {/* Social Media Icons */}

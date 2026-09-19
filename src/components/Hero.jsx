@@ -41,7 +41,8 @@ const Hero = () => {
               View Projects
             </a>
             <a
-              href="#contact"
+              href="/Mostafa_Mohamed_CV.pdf"
+              download="Mostafa_Mohamed_Mahmoud_CV.pdf"
               className="border border-gray-700 text-gray-300 px-7 py-3 rounded-full font-bold text-sm hover:border-gray-500 hover:text-white transition"
             >
               Download CV
@@ -103,7 +104,6 @@ const Hero = () => {
             />
           </div>
 
-          {/* تأثير توهج خلف الصورة */}
           <div className="absolute inset-0 bg-cyan-500/10 rounded-full blur-3xl -z-10"></div>
         </div>
       </div>

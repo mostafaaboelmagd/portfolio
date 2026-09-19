@@ -34,12 +34,25 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
+            {/* زرار استعراض المشاريع */}
             <a
               href="#projects"
               className="bg-cyan-500 text-black px-7 py-3 rounded-full font-bold text-sm hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20"
             >
               View Projects
             </a>
+
+            {/* زرار معاينة السي في في تبويب جديد */}
+            <a
+              href="/Mostafa_Mohamed_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-700 text-gray-300 px-7 py-3 rounded-full font-bold text-sm hover:border-gray-500 hover:text-white transition"
+            >
+              View CV
+            </a>
+
+            {/* زرار تحميل السي في مباشرة */}
             <a
               href="/Mostafa_Mohamed_CV.pdf"
               download="Mostafa_Mohamed_Mahmoud_CV.pdf"

@@ -28,6 +28,13 @@ const projectsData = [
     description: "A comprehensive movie and show streaming interface featuring subscription pages, authentication flows, and responsive media layouts.",
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     link: "https://mostafaaboelmagd.github.io/Movies-show/"
+  },
+  {
+    title: "Saudi Directory",
+    category: "Directory & Business Web App",
+    description: "A comprehensive directory platform designed to showcase and organize Saudi services, businesses, or resources with a clean interface.",
+    tags: ["React", "Tailwind CSS", "Vercel"],
+    link: "https://saudi-directory.vercel.app/"
   }
 ];
 

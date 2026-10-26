@@ -36,13 +36,7 @@ const projectsData = [
     tags: ["React", "Tailwind CSS", "Vercel"],
     link: "https://saudi-directory.vercel.app/"
   },
-  {
-    title: "E-Voting System",
-    category: "Secure Digital Voting Web App",
-    description: "A secure digital voting platform featuring biometric verification, decentralized encryption, and complete identity-vote separation for absolute confidentiality.",
-    tags: ["React", "Next.js", "Tailwind CSS", "Vercel"],
-    link: "https://e-voting-system-hazel.vercel.app/"
-  }
+
 ];
 
 const Projects = () => {
